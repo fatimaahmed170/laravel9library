@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class MYcontroller extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view("View.test");
-   
+    }
 
 }
