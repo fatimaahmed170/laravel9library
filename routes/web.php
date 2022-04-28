@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-// this is the default index page
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+//// this is the default index page
 Route::get('/', [MyController::class, 'index'])->name('home');
 // this is the rout-controller-view
 Route::get('/Param/{$p}', [MyController::class, 'test'])->name('test');

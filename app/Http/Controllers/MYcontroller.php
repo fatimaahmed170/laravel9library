@@ -8,7 +8,7 @@ class MYcontroller extends Controller
 {
     public function index()
     {
-        return view("View.test");
+            return view('home.index');
     }
 
 }
