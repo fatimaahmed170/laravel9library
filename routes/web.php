@@ -44,3 +44,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('/admin', [AdminHomeController::class, 'index'])->name('admin');
 
 
+
